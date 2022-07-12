@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34F852B9670EA13B284E5AE4 /* Pods_MustGoLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC8531E84D69657262F2C63 /* Pods_MustGoLogin.framework */; };
 		87BDECF02873D29F00A5AAB1 /* MustGoLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BDECEF2873D29F00A5AAB1 /* MustGoLoginApp.swift */; };
 		87BDECF22873D29F00A5AAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BDECF12873D29F00A5AAB1 /* ContentView.swift */; };
 		87BDECF42873D2A000A5AAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BDECF32873D2A000A5AAB1 /* Assets.xcassets */; };
 		87BDECF72873D2A000A5AAB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BDECF62873D2A000A5AAB1 /* Preview Assets.xcassets */; };
+		87BDECFE2873EB4600A5AAB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87BDECFD2873EB4600A5AAB1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30495A164964F19E85D8320F /* Pods-MustGoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MustGoLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MustGoLogin/Pods-MustGoLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC8531E84D69657262F2C63 /* Pods_MustGoLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MustGoLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BDECEC2873D29F00A5AAB1 /* MustGoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustGoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BDECEF2873D29F00A5AAB1 /* MustGoLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustGoLoginApp.swift; sourceTree = "<group>"; };
 		87BDECF12873D29F00A5AAB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87BDECF32873D2A000A5AAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87BDECF62873D2A000A5AAB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87BDECFD2873EB4600A5AAB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACD2CBE47D4FC33E0A94100F /* Pods-MustGoLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MustGoLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-MustGoLogin/Pods-MustGoLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F852B9670EA13B284E5AE4 /* Pods_MustGoLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +44,8 @@
 			children = (
 				87BDECEE2873D29F00A5AAB1 /* MustGoLogin */,
 				87BDECED2873D29F00A5AAB1 /* Products */,
+				E9B13A1D7EE37F95FBF4FD3F /* Pods */,
+				C724B85F72E712B1D5A084E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +60,7 @@
 		87BDECEE2873D29F00A5AAB1 /* MustGoLogin */ = {
 			isa = PBXGroup;
 			children = (
+				87BDECFD2873EB4600A5AAB1 /* GoogleService-Info.plist */,
 				87BDECEF2873D29F00A5AAB1 /* MustGoLoginApp.swift */,
 				87BDECF12873D29F00A5AAB1 /* ContentView.swift */,
 				87BDECF32873D2A000A5AAB1 /* Assets.xcassets */,
@@ -67,6 +77,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C724B85F72E712B1D5A084E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC8531E84D69657262F2C63 /* Pods_MustGoLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B13A1D7EE37F95FBF4FD3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30495A164964F19E85D8320F /* Pods-MustGoLogin.debug.xcconfig */,
+				ACD2CBE47D4FC33E0A94100F /* Pods-MustGoLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87BDECFA2873D2A000A5AAB1 /* Build configuration list for PBXNativeTarget "MustGoLogin" */;
 			buildPhases = (
+				EB0BACCFDC06D7801CE3E854 /* [CP] Check Pods Manifest.lock */,
 				87BDECE82873D29F00A5AAB1 /* Sources */,
 				87BDECE92873D29F00A5AAB1 /* Frameworks */,
 				87BDECEA2873D29F00A5AAB1 /* Resources */,
+				015C739855FA3696B9DAF3FD /* [CP] Embed Pods Frameworks */,
+				1FA448671D53CA93DB3BA354 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,10 +157,101 @@
 			files = (
 				87BDECF72873D2A000A5AAB1 /* Preview Assets.xcassets in Resources */,
 				87BDECF42873D2A000A5AAB1 /* Assets.xcassets in Resources */,
+				87BDECFE2873EB4600A5AAB1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015C739855FA3696B9DAF3FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MustGoLogin/Pods-MustGoLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/KakaoSDKAuth/KakaoSDKAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/KakaoSDKCommon/KakaoSDKCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/KakaoSDKUser/KakaoSDKUser.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KakaoSDKAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KakaoSDKCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KakaoSDKUser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MustGoLogin/Pods-MustGoLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA448671D53CA93DB3BA354 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MustGoLogin/Pods-MustGoLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0BACCFDC06D7801CE3E854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MustGoLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87BDECE82873D29F00A5AAB1 /* Sources */ = {
@@ -170,7 +291,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -230,7 +351,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -261,6 +382,7 @@
 		};
 		87BDECFB2873D2A000A5AAB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30495A164964F19E85D8320F /* Pods-MustGoLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +412,7 @@
 		};
 		87BDECFC2873D2A000A5AAB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD2CBE47D4FC33E0A94100F /* Pods-MustGoLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
